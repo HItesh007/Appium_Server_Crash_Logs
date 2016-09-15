@@ -1,0 +1,116 @@
+Launching Appium with command: '/Applications/Appium.app/Contents/Resources/node/bin/node' appium/build/lib/main.js --port "4725" --debug-log-spacing --log-level "debug" --platform-version "9.3.5" --platform-name "iOS" --app "/Users/imriel/Desktop/Hitesh-HDD/Mobile Automation/IMRIEL Automation Project/AppsUnderTest/TabletPLUS.ipa" --full-reset --show-ios-log --device-name "iPad Air 2" --launch-timeout "90000" --native-instruments-lib --native-instruments-lib
+
+[Appium] Welcome to Appium v1.5.3
+
+[Appium] Non-default server args:
+
+[Appium]   port: 4725
+[Appium]   debugLogSpacing: true
+[Appium]   platformName: 'iOS'
+[Appium]   platformVersion: '9.3.5'
+[Appium]   deviceName: 'iPad Air 2'
+[Appium]   app: '/Users/imriel/Desktop/Hitesh-HDD/Mobile Automation/IMRIEL Automation Project/AppsUnderTest/TabletPLUS.ipa'
+[Appium]   fullReset: true
+[Appium]   nativeInstrumentsLib: true
+[Appium]   showIOSLog: true
+
+[Appium] Deprecated server args:
+[Appium]   --platform-name => --default-capabilities '{"platformName":"iOS"}'
+[Appium]   --platform-version => --default-capabilities '{"platformVersion":"9.3.5"}'
+[Appium]   --device-name => --default-capabilities '{"deviceName":"iPad Air 2"}'
+[Appium]   --app => --default-capabilities '{"app":"/Users/imriel/Desktop/Hitesh-HDD/Mobile Automation/IMRIEL Automation Project/AppsUnderTest/TabletPLUS.ipa"}'
+[Appium]   --full-reset => --default-capabilities '{"fullReset":true}'
+[Appium]   --native-instruments-lib => --default-capabilities '{"nativeInstrumentsLib":true}'
+[Appium]   --show-ios-log => --default-capabilities '{"showIOSLog":true}'
+
+[Appium] Default capabilities, which will be added to each request unless overridden by desired capabilities:
+
+[Appium]   platformName: 'iOS'
+[Appium]   platformVersion: '9.3.5'
+[Appium]   deviceName: 'iPad Air 2'
+[Appium]   app: '/Users/imriel/Desktop/Hitesh-HDD/Mobile Automation/IMRIEL Automation Project/AppsUnderTest/TabletPLUS.ipa'
+[Appium]   fullReset: true
+[Appium]   nativeInstrumentsLib: true
+[Appium]   showIOSLog: true
+
+[Appium] Appium REST http interface listener started on 0.0.0.0:4725
+
+[HTTP] --> GET /wd/hub/status {}
+
+[MJSONWP] Calling AppiumDriver.getStatus() with args: []
+
+[MJSONWP] Responding to client with driver.getStatus() result: {"build":{"version":"1.5.3"...
+
+[HTTP] <-- GET /wd/hub/status 200 38 ms - 83 
+
+[HTTP] --> GET /wd/hub/status {}
+[MJSONWP] Calling AppiumDriver.getStatus() with args: []
+
+[MJSONWP] Responding to client with driver.getStatus() result: {"build":{"version":"1.5.3"...
+
+[HTTP] <-- GET /wd/hub/status 200 26 ms - 83 
+
+[HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"app":"/Users/imriel/Desktop/Hitesh-HDD/Mobile Automation/IMRIEL Automation Project/Automation.TabletPLUS/src/AppUnderTest/TabletPLUS.ipa","newCommandTimeout":"120","platformVersion":"9.3.5","platformName":"iOS","udid":"5a1692384cb071cf9fc0a01500c86dce7b34a574","deviceName":"iPad Air 2","fullReset":true}}
+
+[MJSONWP] Calling AppiumDriver.createSession() with args: [{"app":"/Users/imriel/Desk...
+
+[Appium] Creating new IosDriver session
+[Appium] Capabilities:
+[Appium]   app: '/Users/imriel/Desktop/Hitesh-HDD/Mobile Automation/IMRIEL Automation Project/Automation.TabletPLUS/src/AppUnderTest/TabletPLUS.ipa'
+[Appium]   newCommandTimeout: '120'
+[Appium]   platformVersion: '9.3.5'
+[Appium]   platformName: 'iOS'
+[Appium]   udid: '5a1692384cb071cf9fc0a01500c86dce7b34a574'
+[Appium]   deviceName: 'iPad Air 2'
+[Appium]   fullReset: true
+[Appium]   nativeInstrumentsLib: true
+[Appium]   showIOSLog: true
+[BaseDriver] Capability 'newCommandTimeout' changed from string ('120') to integer (120). This may cause unexpected behavior
+[BaseDriver] Session created with session id: bee862eb-9938-45a9-b592-275276135a67
+[debug] [iOS] Not auto-detecting udid.
+
+[BaseDriver] Using local app '/Users/imriel/Desktop/Hitesh-HDD/Mobile Automation/IMRIEL Automation Project/Automation.TabletPLUS/src/AppUnderTest/TabletPLUS.ipa'
+[debug] [BaseDriver] Copying local zip to tmp dir
+
+[debug] [BaseDriver] Unzipping /var/folders/mv/nmw6fyzd6t14f68_hhnwsdwm0000gp/T/2016815-10214-131uab5/appium-app.zip
+
+[debug] [BaseDriver] Testing zip archive: /var/folders/mv/nmw6fyzd6t14f68_hhnwsdwm0000gp/T/2016815-10214-131uab5/appium-app.zip
+
+[BaseDriver] Unzipped local app to '/var/folders/mv/nmw6fyzd6t14f68_hhnwsdwm0000gp/T/2016815-10214-131uab5/Payload/TabletPLUS.app'
+
+[debug] [iOS] Removing any remaining instruments sockets
+
+[debug] [iOS] Cleaned up instruments socket /var/folders/mv/nmw6fyzd6t14f68_hhnwsdwm0000gp/T/instruments_sock
+[debug] [iOS] No language specified. Using default strings
+[debug] [iOS] Strings file not found. Looking in 'en.lproj' directory
+[iOS] Could not file localizable strings file 'Localizable.strings'!
+[debug] [ios-app-utils] Getting bundle ID from app
+
+[iOS] Extracted bundleID: com.imriel.TabletPLUS from app: /var/folders/mv/nmw6fyzd6t14f68_hhnwsdwm0000gp/T/2016815-10214-131uab5/Payload/TabletPLUS.app
+
+[debug] [iOS] Creating instruments
+[debug] [UIAuto] Preparing bootstrap code
+[debug] [UIAuto] Dynamic bootstrap dir: /Users/imriel/Library/Application Support/appium/bootstrap
+[debug] [UIAuto] Dynamic env: {"nodePath":"/Applications/Appium.app/Contents/Resources/node/bin/node","commandProxyClientPath":"/Applications/Appium.app/Contents/Resources/node_modules/appium/node_modules/appium-ios-driver/node_modules/appium-uiauto/build/lib/bin/command-proxy-client.js","instrumentsSock":"/var/folders/mv/nmw6fyzd6t14f68_hhnwsdwm0000gp/T/instruments_sock","interKeyDelay":null,"justLoopInfinitely":false,"autoAcceptAlerts":false,"autoDismissAlerts":false,"sendKeyStrategy":"grouped"}
+
+[debug] [UIAuto] Dynamic bootstrap code: // This file is automatically generated. Do not manually modify!
+...
+
+[debug] [UIAuto] Dynamic bootstrap path: /Users/imriel/Library/Application Support/appium/bootstrap/bootstrap-7b1d432519678293.js
+[debug] [UIAuto] Reusing dynamic bootstrap: /Users/imriel/Library/Application Support/appium/bootstrap/bootstrap-7b1d432519678293.js
+[debug] [iOS] Running ios real device reset flow
+[debug] [iOS] Full reset requested. Will try to uninstall the app 'com.imriel.TabletPLUS'.
+[debug] [iOS] Creating iDevice object with udid 5a1692384cb071cf9fc0a01500c86dce7b34a574
+
+[iOS] Could not remove 'com.imriel.TabletPLUS' from device
+
+[MJSONWP] Encountered internal error running command: Error: Removing com.imriel.TabletPLUS failed
+    at /Applications/Appium.app/Contents/Resources/node_modules/appium/node_modules/appium-ios-driver/node_modules/node-idevice/main.js:145:6
+    at ChildProcess.exithandler (child_process.js:193:7)
+    at emitTwo (events.js:100:13)
+    at ChildProcess.emit (events.js:185:7)
+    at maybeClose (internal/child_process.js:850:16)
+    at Socket.<anonymous> (internal/child_process.js:323:11)
+    at emitOne (events.js:90:13)
+    at Socket.emit (events.js:182:7)
+    at Pipe._onclose (net.js:475:12)
